@@ -321,6 +321,23 @@ span {
     color: var(--second-bg-color);
 }
 
+.pending{
+    
+              position: absolute;
+              top: 13%;
+              left: 51%;
+              width:max-content;
+              transform: translate(-50%, -50%);
+              color: #fff;
+              background-color: rgba(0, 0, 0, 0.6);
+              padding: 10px 20px;
+              border-radius: 8px;
+              font-size: 16px;
+              font-weight: bold;
+              text-transform: uppercase;
+              transition: .5s ease;
+}
+
 .contact h2 {
     margin-bottom: 3rem;
     color:var(--text-color);
